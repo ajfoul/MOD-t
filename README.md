@@ -14,3 +14,15 @@ This a config for Slic3r: http://slic3r.org
 Just launch Slic3r and select File>Load Config... and point to this file.  
 
 I recommend going in to Prefrences in Slic3r and choosing Expert Mode.
+
+Calibration_test_files/
+=======================
+
+Singlewallcalibration35.stl is for use in setting the the 'Extrusion multiplier' in the 'Filamnet Settings' tab as documented here:
+https://github.com/alexrj/Slic3r/wiki/Calibration (There is a an STL file there that can also be used.)
+
+I've provided Singlewallcalibration35.gcode which has been sliced with the MOD-t_slic3r_config.ini settings as a convenience for those who may have not yet installed Slic3r and would just like to try printing a single wall part.
+
+Singlewallcalibration35.png is a rendering of the part for reference.
+
+The part is a 35x35x35mm cube with one edge radiused at 11.667mm (35mm/3).
