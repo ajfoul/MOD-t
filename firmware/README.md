@@ -2,7 +2,7 @@ Firmware Upgrade/Downgrade Instructions
 ---------------------------------------
 
 **Please Note:** 
-These are all the publicly available firmware versions for the MOD-t.  They are all provided here for convenience, however, it is not recommended or advisable to use any version below v0.4.0.  In fact, there is a very high probability that the lower versions will result not only in failed prints, but of damage to the print surface by the hotend plunging in to it while at tempreture.
+These are all the publicly available firmware versions for the MOD-t.  They are all provided here for convenience, however, it is not recommended or advisable to use any version below v0.4.0.  In fact, there is a very high probability that the lower versions will result not only in failed prints, but damage to the print surface by the hotend plunging in to it while at temperature.
 
 I'd say go with v0.5.0 or v0.5.3 if you want a (somewhat) usable printer.
 
