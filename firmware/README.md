@@ -1,7 +1,14 @@
 Firmware Upgrade/Downgrade Instructions
 ---------------------------------------
 
-**WARNING:** I take absolutely no responsibility for anything you do with these files or instructions, play at your own risk!
+**Please Note:** 
+These are all the publicly available firmware versions for the MOD-t.  They are all provided here for convenience, however, it is not recommended or advisable to use any version below v0.4.0.  In fact, there is a very high probability that the lower versions will result not only in failed prints, but of damage to the print surface by the hotend plunging in to it while at tempreture.
+
+I'd say go with v0.5.0 or v0.5.3 if you want a (somewhat) usable printer.
+
+You can use the steps below to install the firmware. Simply download the version you want and rename it to firmware_modt_override.dfu
+
+I would recommend either [downloading this entire repo as a .zip](https://github.com/ajfoul/MOD-t/archive/master.zip) or right clicking on the desired file to save it to the desired location on your computer.
 
 #### Windows
 
