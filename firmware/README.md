@@ -27,3 +27,7 @@ I would recommend either [downloading this entire repo as a .zip](https://github
 5.	Remove/Delete the file under /tmp/firmware_modt_override.dfu
 
 \** Please follow step 5 or the printer will printer utility will never alert you about updated firmware in the future.\*\*
+
+**Note:** The default on Mac OS X is to have folders like /tmp hidden. You can open the folder in a Finder window by launching Terminal.app (located in Applications/Utilities) and typing:
+
+`open /tmp`
