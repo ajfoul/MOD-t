@@ -6,6 +6,12 @@ clearnozzle.gcode
 
 The file clearnozzle.gcode is intended to help clear a jammed nozzle on the MOD-t.  Just connect your MOD-t to your computer with the USB, launch the MOD-t print tool app and seelect Settings>Advanced Mode>Print File. The MOD-t will do it's little calibration dance and then the nozzle will start to heat to 230ºC (actually it will try, but because the MOD-t is firmware limited to a max temp of 220ºC, it will never get there) and then the print head will move up. The move is just there to indicate that it's gotten to temp. Then the extrunder will try to push some filamnet through, which should be enough to clear most jams. Finally the print head will move back down and the MOD-t will go back to idle.
 
+**Note:** This gcode is only useful if there is a blockage in the nozzle itself, that is, the brass tip where the filament comes out. This type blockage is usually caused dust/debris getting in to the hotend.
+
+There is a completely different issue where filamnet gets jammed at the top of the MOD-t hotend within the print head. If no filamnet comes out when you try to print and/or you are unable to unload filament, **this gcode will not help and will just make matters worse**.
+
+Please see [this post](https://groups.google.com/d/msg/mod-t/Pgdlp3kf2pQ/eDWAR7E3CAAJ) at the [MOD-t Google group](https://groups.google.com/forum/?#!forum/mod-t) for more information on this type of jam.
+
 MOD-t_slic3r_config.ini
 =======================
 
