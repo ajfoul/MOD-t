@@ -1,11 +1,14 @@
 ; this is intended to help clear a jammed nozzle on the MOD-t
 M82
+
 M106 S255 ; Turn fan on to 100%
 
 M109 S230.0 ;set temp and wait 
 G0 Z100 F300 ; move to Z 100 when @ temp
-G1 E10.0000 F9000.00000 ; extrude some filament
+G1 E30.0000 F9000.00000 ; extrude some filament
 G0 Z50 F100 ; move down slowly after extruding
+
+M106 S255 ; Turn fan on to 100%
 
 G0 Z130 F300; Go high
 
